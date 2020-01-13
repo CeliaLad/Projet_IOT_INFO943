@@ -11,3 +11,13 @@ Avec les noms de branches suivantes :
 - bdd
 - angular
 - crawling
+
+## Docker
+
+Pour lancer le docker:
+
+```bash
+ssh etudiants@163.172.97.125
+```
+
+with mdp : polytech
