@@ -1,6 +1,11 @@
 # Projet_IOT_INFO943
-## Branches
+## Liens utiles
+### Drive
+https://drive.google.com/drive/folders/13y1ILL5c0FnHITbpWpMO2ZvCtkiCDHAl?usp=sharing
+### Trello
+https://trello.com/invite/b/F8nFntMa/2477157b3ccd43767139c1be67b64d94/projiotinfo943
 
+## Branches
 ### Création branches
 Creer votre branche avec la commande : 
 ```
