@@ -1,0 +1,4 @@
+FROM eclipse-mosquitto
+ADD DockerFileCreate.py /
+RUN pip install pystrich
+CMD [ "python", "./DockerFileCreate.py" ]
