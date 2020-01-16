@@ -1,0 +1,19 @@
+FROM mysql:latest
+WORKDIR /usr/src/app
+RUN apt update
+RUN apt --assume-yes install python
+COPY helloworld.py .
+COPY runpython.sh /
+RUN chmod +x /runpython.sh
+
+ADD final_rest.py /
+ADD container_creation.py /
+
+RUN pip install subprocess.run
+RUN pip install docker
+RUN pip install paho-mqtt
+RUN pip install requests
+
+CMD [ "python", "./container_creation.py" ]
+CMD [ "python", "./final_rest.py" ]
+

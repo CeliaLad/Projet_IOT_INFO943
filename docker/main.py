@@ -3,7 +3,7 @@ import time
 
 FOLDER_PATH = "./"
 
-client = docker.DockerClient(base_url='193.48.125.179:2326')
+client = docker.DockerClient(base_url='193.48.125.180:2326')
 client.events()
 
 print("Building image")
